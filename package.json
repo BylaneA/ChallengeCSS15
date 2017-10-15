@@ -1,0 +1,20 @@
+{
+  "name": "challengecss15",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BylaneA/ChallengeCSS15.git"
+  },
+  "author": "BylaneA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BylaneA/ChallengeCSS15/issues"
+  },
+  "homepage": "https://github.com/BylaneA/ChallengeCSS15#readme"
+}
