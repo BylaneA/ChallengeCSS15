@@ -7,16 +7,15 @@ body {
 
 /*-----------Header------------- */
 header {
-  background-color: steelblue;
-  height: 540px;
-  margin-top: -50px; }
+  background: url("../img/header-bg.jpg");
+  height: 540px; }
   header nav {
     background: #2d2d2d;
     width: 100%;
     height: 90px;
     float: right;
     text-align: right;
-    /*position: fixed;*/ }
+    position: fixed; }
     header nav ul li {
       list-style: none;
       display: inline-block; }
@@ -30,14 +29,48 @@ header {
   header .slogan {
     color: #e0e0e0;
     text-align: center;
-    font-size: 30px; }
+    font-size: 30px;
+    padding-top: 85px; }
 
 /*-----------Intro------------- */
 .intro {
   background-color: white;
-  height: 355px; }
+  height: 330px;
+  display: inline-flex;
+  text-align: center;
+  justify-content: space-between; }
+  .intro .design {
+    width: 33%; }
+  .intro .bootstrap {
+    width: 33%; }
+  .intro .support {
+    width: 33%; }
 
 /*-----------Latest------------- */
 .latest {
   background-color: #e0e0e0;
-  height: 355px; }
+  height: 500px;
+  text-align: center; }
+  .latest .iphones {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    height: 470px; }
+    .latest .iphones .iphone1 {
+      background: url("../img/p01.png") no-repeat;
+      width: 33%; }
+    .latest .iphones .iphone2 {
+      background: url("../img/p03.png") no-repeat;
+      width: 33%; }
+    .latest .iphones .iphone3 {
+      background: url("../img/p02.png") no-repeat;
+      width: 33%; }
+
+/*-----------Create------------- */
+.create {
+  background-color: white;
+  text-align: center;
+  height: 650px; }
+  .create .tablet {
+    background: url("../img/munter.png");
+    height: 400px; }
